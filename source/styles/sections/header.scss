@@ -1,0 +1,75 @@
+.header {
+  background: #4961ae;
+  padding: 11px 0;
+  min-width: 1200;
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo-link {
+  width: 126px;
+  height: 44px;
+}
+
+.header__logo {
+  width: 126px;
+  height: 44px;
+}
+
+.header__nav {
+
+}
+
+.header__list {
+  display: flex;
+}
+
+.header__item {
+  margin-right: 40px;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.header__link {
+  color: #d3ddff;
+  font-size: 15px;
+  text-decoration: none;
+  font-family: 'StencilFamily', sans-serif;
+  font-weight: 100;
+  transition: color 0.2s;
+
+  &:hover {
+    color: white;
+  }
+}
+
+.header__registration {
+  color: #d3ddff;
+}
+
+.header__registration span {
+  margin: 0 3px;
+}
+
+.header__auth-btn {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'Helvetica Neue', sans-serif;
+  text-decoration: underline;
+}

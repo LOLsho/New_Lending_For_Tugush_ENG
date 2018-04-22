@@ -1,0 +1,17 @@
+@import '../fonts/_fonts';
+
+
+
+// initial settings
+@import "initial-settings";
+
+
+// blocks
+@import "./blocks/more-info-btn";
+
+
+// sections
+@import "./sections/header";
+@import "./sections/first-platform";
+@import "./sections/about";
+@import "./sections/products";
