@@ -1,0 +1,7 @@
+mixin product(titleThin, titleBold, desc)
+    div(class='product')
+        h1(class='product__title')
+            span=titleThin + ' '
+            =titleBold
+        p(class='product__desc')=desc
+        include ./blocks/more-info-btn

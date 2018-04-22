@@ -21,9 +21,10 @@ div, ul, li, p, a, img, button {
 }
 
 h1 {
-  font-size: 30px;
-  text-align: center;
-  color: #4961ae;
+  font-size: 48px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
 }
 
 h3 {
@@ -37,6 +38,7 @@ h3 {
   min-width: 1200px;
   width: 1200px;
   margin: 0 auto;
+  position: relative;
 }
 
 .btn {

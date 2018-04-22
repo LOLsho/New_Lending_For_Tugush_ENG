@@ -1,4 +1,17 @@
 section.products
     .container
+        .products__bg-text.products__bg-text1 BLOCKCHAIN FINANCE BOUTIQUE
+        .products__bg-text.products__bg-text2 BLOCKCHAIN FINANCE BOUTIQUE
         .products__content
-            .products__good1
+            .products__good.products__good1
+                +product('Выгодные займы', 'под залог криптовалюты', 'займы на развитие бизнеса и текущие расходы с сохранением дохода в криптовалюте')
+                .products__img-wrap
+                    img.products__img(src="../images/png/product1.png" alt="dollar")
+            .products__good.products__good2
+                +product('Высокодоходные', 'депозиты', 'депозиты с доходностью до 50%')
+                .products__img-wrap
+                    img.products__img(src="../images/png/product2.png" alt="euro")
+            .products__good.products__good3
+                +product('Мультивалютный', 'кошелек', 'универсальный инструмент управления финансами и мультивалютными операциями')
+                .products__img-wrap
+                    img.products__img(src="../images/png/product3.png" alt="multi")
