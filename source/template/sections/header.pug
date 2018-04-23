@@ -1,33 +1,20 @@
-//- In 'includes' all paths to assets should be relative to the index.pug file,
-//- like so './images/image.jpg',
-//- and not './../images/image.jpg'
-
 header(class="header")
   div(class="container")
     div(class="header__content")
-      a(class="header__logo-link" href="/")
-        img(src="../images/logos/-e-logo_tugush_finance_white.png" alt="logo" class="header__logo" )
+      a(class="header__logo-link")
+        img(src="../images/logos/logo-finance.png" alt="logo" class="header__logo" )
       nav(class="header__nav")
         ul(class="header__list")
           li(class="header__item")
-            a(href="#" class="header__link") О нас
+            a(href="#about" class="header__link") О нас
           li(class="header__item")
-            a(href="#" class="header__link") Наши продукты
+            a(href="#products" class="header__link") Наши продукты
           li(class="header__item")
-            a(href="#" class="header__link") Пресс-центр
+            a(href="#partners" class="header__link") Партнеры
           li(class="header__item")
-            a(href="#" class="header__link") Партнеры
-          li(class="header__item")
-            a(href="#" class="header__link") Контакты
-          li(class="header__item")
-            a(href="#" class="header__link") FAQ
-      div(class="header__registration")
+            a(href="#footer" class="header__link") Контакты
+      //div(class="header__registration")
         //button(class="header__auth-btn") Вход
         //span() /
-        button(class="header__auth-btn" id="registrationBtn") Вход
-
-
-
-        //h1 Hello world!
-        //img(src='./images/js-logo.svg' alt='js logo' width='200')
+        //button(class="header__auth-btn" id="registrationBtn") Вход
 

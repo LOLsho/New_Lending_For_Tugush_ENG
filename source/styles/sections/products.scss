@@ -8,14 +8,18 @@
   font-size: 100px;
   width: 725px;
   font-weight: bold;
+  line-height: 0.9em;
+  color: white;
+  z-index: -9999;
 
   &1 {
-    color: white;
-    top: -400px;
+    top: -350px;
   }
 
   &2 {
-    bottom: -400px;
+    bottom: -330px;
+    left: -39px;
+    color: #99aef0;
   }
 }
 
@@ -79,4 +83,5 @@
 .products__img {
   position: absolute;
   left: 40px;
+  width: 554px;
 }

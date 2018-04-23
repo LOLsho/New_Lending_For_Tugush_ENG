@@ -1,0 +1,40 @@
+.partners {
+  padding: 87px 0 220px;
+}
+
+.partners__content {
+
+}
+
+.partners__list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 135px;
+}
+
+.partners__item {
+
+}
+
+.partners__img {
+
+  &1 {
+    width: 172px;
+  }
+
+  &2 {
+    width: 187px;
+  }
+
+  &3 {
+    width: 184px;
+  }
+
+  &4 {
+    width: 167px;
+  }
+
+  &5 {
+    width: 194px;
+  }
+}

@@ -5,3 +5,8 @@ mixin product(titleThin, titleBold, desc)
             =titleBold
         p(class='product__desc')=desc
         include ./blocks/more-info-btn
+
+mixin h3(title_text)
+    .h3__container
+        h3.h3__title=title_text
+        img.h3__img(src="../images/png/vec3x.png")
