@@ -1,18 +1,28 @@
 doctype html
 html(lang='ru')
     head
+
+        //Google Tag Manager
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-WL82CVZ');</script>
+        //End Google Tag Manager
+        link(rel="manifest" href="/manifest.json")
+
         meta(charset='UTF-8')
         meta(http-equiv='X-UA-Compatible', content="IE=edge")
         meta(name='viewport' content='width=device-width')
         link(rel="stylesheet" href="css/main.min.css")
         link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css")
         include mixins
-        title Main landing
+        title Tugush
         link(rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.10/css/all.css" integrity="sha384-+d0P83n9kaQMCwj8F4RJB66tzIwOKmrdb46+porD/OvrJ+37WqIM7UoBtwHO6Nlg" crossorigin="anonymous")
-        //script(src="js/index.js")
-        //script(src="//cdn.jsdelivr.net/npm/jquery.scrollto@2.1.2/jquery.scrollTo.min.js")
     body
-        img.car-bg(src="../images/bg/Layer 525.png" alt="car")
+
+        //Google Tag Manager (noscript)
+        noscript <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WL82CVZ" height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        //End Google Tag Manager (noscript)
+        <script>!function(e,t,d,s,a,n,c){e[a]={},e[a].date=(new Date).getTime(),n=t.createElement(d),c=t.getElementsByTagName(d)[0],n.type="text/javascript",n.async=!0,n.src=s,c.parentNode.insertBefore(n,c)}(window,document,"script","https://tugushcom.push.world/https.embed.js","pw"),pw.websiteId="543a99c6e58af397e9dc85033b158e1aa6e64634a7b5cca0ba3afcdf38591fec";</script>
+
+        img.car-bg(src="../images/bg/Layer525.png" alt="car")
         include sections/header.pug
         include sections/first-platform
         include sections/about
@@ -23,5 +33,3 @@ html(lang='ru')
 
 
         script(src="https://use.fontawesome.com/448e6a6850.js")
-        //script(async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAm2yqV04hc0wgj2YbMtJagZemmtEvADzY&callback=window.initMap")
-        //script(src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous")

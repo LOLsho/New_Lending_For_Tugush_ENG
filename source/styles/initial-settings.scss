@@ -9,6 +9,7 @@ body {
   min-width: 1200px;
   background: url("../images/bg/blue.png");
   position: relative;
+  overflow-x: hidden;
 }
 
 html, body {
@@ -35,8 +36,9 @@ h3 {
 }
 
 .container {
-  min-width: 1200px;
-  width: 1200px;
+  min-width: 1220px;
+  width: 1220px;
+  padding: 0 35px;
   margin: 0 auto;
   position: relative;
 }
@@ -59,5 +61,5 @@ h3 {
   right: 0;
   z-index: -999;
   opacity: 0.45;
-  width: 100%;
+  width: 102%;
 }

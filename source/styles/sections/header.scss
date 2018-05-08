@@ -74,3 +74,16 @@
   font-family: 'Helvetica Neue', sans-serif;
   text-decoration: underline;
 }
+
+.header__language {
+
+}
+
+.header__language-link {
+  color: #d3ddff;
+  transition: color 0.2s;
+
+  &:hover {
+    color: white;
+  }
+}

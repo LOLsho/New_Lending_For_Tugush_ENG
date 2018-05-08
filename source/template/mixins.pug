@@ -4,9 +4,9 @@ mixin product(titleThin, titleBold, desc, href)
             span=titleThin + ' '
             =titleBold
         p(class='product__desc')=desc
-        if titleThin !== 'Мультивалютный'
+        if titleThin !== 'multicurrency'
             a.more-info-btn(href=href)
-                p.more-info-btn__text подробнее
+                p.more-info-btn__text more info
                 img.more-info-btn__pointer(src="../images/png/Слой 688 копия.png" alt="pointer")
 
 mixin h3(title_text)
